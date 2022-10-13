@@ -1,0 +1,4 @@
+CMAKE_TOOLCHAIN_FILE=~/Development/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
+cd build
+emcmake cmake ..
+make
